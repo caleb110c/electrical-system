@@ -1,5 +1,5 @@
-DEVICE_NAME = "Raspberry pi pico"   # WILL ADD ARDUINO, LED, MOTOR, ETC
-MAX_VOLTAGE = 5.5  # Volts(V)       # WORK ON SHORTENING CODE AND CLEANING UP
+DEVICE_NAME = "Raspberry pi pico"   # WILL ADD LED, MOTOR, ETC
+MAX_VOLTAGE = 5.5  # Volts(V)      
 MIN_VOLTAGE = 1.8  # (V)
 MAX_TOTAL_CURRENT = 0.05  # Amps(A)
 
@@ -46,3 +46,4 @@ elif voltage_input_float < MIN_VOLTAGE:
 else:
     print("succes voltage is within safe limit")
     print("YOUR CURRENT AND VOLTAGE ARE SUTIABLE TO CONTINUE!")
+
